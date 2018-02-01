@@ -11,14 +11,14 @@ This module is built for caching responses from API's in a file. Its primary foc
 ## Usage
 
 Build the cache settings object
-```
+```php
   $KOCacheSettings = new \KO\Cache\Settings();
   $KOCacheSettings->setValidity(15);
   $KOCacheSettings->setFile('data_cache.json');
 ```
 
 Instantiate a new cache object with the settings
-```
+```php
   $KOCache = new \KO\Cache\Cache($KOCacheSettings);
 ```
 
