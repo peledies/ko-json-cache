@@ -5,7 +5,7 @@ This module is built for caching responses from API's in a file. Its primary foc
 | Property | Type | Description |
 | -------- | ---- | ----------- |
 | validity | Integer | Number of minutes the cache will be used before being declared invalid [ Default 15 ]|
-| file | String | The directory of the json cache file [ Default json-cache.json ]
+| file | String | The path of the json cache file [ Default json-cache.json ]
 
 
 ## Usage
@@ -24,4 +24,4 @@ Instantiate a new cache object with the settings
 
 ## Documentation
 
-See the full [Documentation](http://ko.karnsonline.com/cache) for more details.
+See the full [Documentation](http://ko.karnsonline.com/json-cache) for more details.
