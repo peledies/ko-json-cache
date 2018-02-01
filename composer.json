@@ -1,0 +1,17 @@
+{
+    "name": "ko/json-cache",
+    "description": "A caching module for storing data in a JSON file",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Deac Karns",
+            "email": "peledies@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "KO\\Cache\\": "src"
+        }
+    }
+}
