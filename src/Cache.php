@@ -22,7 +22,12 @@ class Cache
 	}
 
 	private function getCache(){
-		return json_decode(file_get_contents($this->settings->getFile()));
+    if(file_exists($this->settings->getFile())){
+      $cache = json_decode(file_get_contents($this->settings->getFile()));
+    }else{
+      $cache = null;
+    }
+		return $cache;
 	}
 
 	public function isStale(){
