@@ -9,6 +9,9 @@
         }
     ],
     "require": {},
+    "license": [
+       "MIT"
+    ],
     "autoload": {
         "psr-4": {
           "KO\\Cache\\": "src"

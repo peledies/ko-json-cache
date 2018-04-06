@@ -2,6 +2,12 @@
 
 This module is built for caching responses from API's in a file. Its primary focus is on alleviating pressure from an API when data is not required to be up to the second. This is particularly useful when the API may have throttling or rate limiting in use.
 
+## Install
+```php
+composer require ko/json-cache
+```
+
+## Properties
 | Property | Type | Description |
 | -------- | ---- | ----------- |
 | validity | Integer | Number of minutes the cache will be used before being declared invalid [ Default 15 ]|
