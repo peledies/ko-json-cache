@@ -29,7 +29,7 @@ class Cache
 	{
 		$this->settings = $settings;
 		$this->data = $this->getCache();
-		$this->cacheTime = $this->data->updated;
+		$this->cacheTime = (isset($this->data->updated))? $this->data->updated : null;
 		$this->valid = $this->isStale();
 	}
 
